@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Čvarci.net</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="hamburger-container">
+        <div class="hamburger-background">
+          <img
+            src="images/ic-menu-navigation.png"
+            class="hamburger-menu"
+            width="18"
+            height="16"
+          />
+        </div>
+      </div>
+
+      <div class="logo">
+        <img src="images/logo.jpg" width="195" height="42" />
+      </div>
+
+      <div class="header-actions">
+        <div class="sign-in-container">
+          <img
+            class="sign-in-icon"
+            src="images/Vector.jpg"
+            width="16"
+            height="16"
+          />
+          <span>PRIJAVI SE</span>
+        </div>
+
+        <div class="cart-container">
+          <img class="cart-icon" src="images/cart.png" width="20" height="20" />
+          <span>0</span>
+
+          <div class="products-cart"></div>
+        </div>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner-information">
+        <div class="banner-title">
+          <h1>Najbolji čvarci na kućnom pragu</h1>
+        </div>
+        <div class="banner-buttons">
+          <button class="button-dostava">DOSTAVA<br />Naruči</button>
+          <button class="button-preuzmi">PREUZMI<br />Na čvarkomatu</button>
+        </div>
+      </div>
+      <img
+        src="images\cvarci.png"
+        alt=""
+        width="820"
+        height="820"
+        class="banner-image"
+      />
+    </div>
+    <div class="perks">
+      <div class="perks-container">
+        <div class="perks-item">
+          <img src="images/time-eat.png" width="48" height="48" />
+          <span>dostavljamo čvarke za<br />manje od 30 minuta</span>
+        </div>
+
+        <div class="perks-item">
+          <img src="images/delivery.png" width="48" height="48" />
+          <span>naši šoferi voze<br />tomose</span>
+        </div>
+
+        <div class="perks-item">
+          <img src="images/x30 HS9J6 1.png" width="44" height="48" />
+          <span> nabavljamo najbolje<br />prasce iz Francuske</span>
+        </div>
+      </div>
+    </div>
+    <!--  <div class="button"></div> -->
+
+    <div class="title4">
+      <h2>Novo u ponudi ! Naručite čvarke online</h2>
+    </div>
+
+    <div class="col-md-3 text center offered-items">
+      <div class="offeredItem" data-id="0">
+        <img src="images/slika1.png" width="300" height="300" alt="cvarci domaci" />
+        <h3>Čvarci domaći</h3>
+        <p class="price">50,00 kn/kg</p>
+        <label for="qty">Količina</label>
+        <input type="number" min="1" value="1">
+        <button class="addToCart">Stavi u košaricu</button>
+      </div>
+      <div class="offeredItem" data-id="1">
+        <img src="images/slika2.png" width="300" height="300" alt="cvarci slavonski" />
+        <h3>Čvarci slavonski</h3>
+        <p class="price">80,00 kn/kg</p>
+        <label for="qty">Količina</label>
+        <input type="number" min="1" value="1">
+        <button class="addToCart">Stavi u košaricu</button>
+      </div>
+      <div class="offeredItem" data-id="2">
+        <img src="images/slika3.png" width="300" height="300" alt="cvarci pileci" />
+        <h3>Čvarci pileći</h3>
+        <p class="price">60,00 kn/kg</p>
+        <label for="qty">Količina</label>
+        <input type="number" min="1" value="1">
+        <button class="addToCart">Stavi u košaricu</button>
+      </div>
+      <div class="offeredItem" data-id="3">
+        <img src="images/slika4.png" width="300" height="300" alt="cvarci od divljaci" />
+        <h3>Čvarci od divljači</h3>
+        <p class="price">100,00 kn/kg</p>
+        <label for="qty">Količina</label>
+        <input type="number" min="1" value="1">
+        <button class="addToCart">Stavi u košaricu</button>
+      </div>
+    </div>
+
+    <div class="title2">
+      <h2>Naše čvarke možete pronaći</h2>
+      <button type="button">prikaži sve</button>
+    </div>
+    <div class="gallery">
+      <img src="images\hamburger.png" />
+      <img src="images\talijanska.png" />
+      <img src="images\restaurant.png" />
+      <img src="images\via.png" />
+    </div>
+
+    <div class="contact">
+      <section class="sect">
+        <div>
+          <h2>Želite biti naš brand partner?</h2>
+          <h5>
+            Pošaljite nam Vaš broj i kontaktirat ćemo Vas u <br />najkraćem
+            mogućem roku
+          </h5>
+        </div>
+
+        <form action="#" method="post">
+          <input
+            class="form-input"
+            type="text"
+            name="Email"
+            placeholder="Pošaljite Vašu email adresu"
+          />
+          <input class="form-button" type="button" value="pošalji" />
+        </form>
+      </section>
+    </div>
+
+    <div class="map">
+      <h2>Gdje se nalaze naši<br />čvarkomati ?</h2>
+      <img src="images\map.png" alt="mapa" />
+    </div>
+    <div class="menu">
+      <div class="menu-container">
+        <img src="images/Component 7.png" width="127" height="127" />
+        <img src="images/Component 8.png" width="127" height="127" />
+        <img src="images/Component 9 (1).png" width="127" height="127" />
+        <img src="images/Component 10.png" width="127" height="127" />
+      </div>
+    </div>
+
+    <div class="title3">
+      <img src="images/čvarcinet na instagramu.png" />
+    </div>
+
+    <div class="gallery2">
+      <img src="images/Rectangle 10.png" alt="Kitchen" />
+      <img src="images/Rectangle 11.png" alt="Two people eating food" />
+      <img src="images/Rectangle 12.png" alt="One man eating food" />
+      <img src="images/Rectangle 13.png" alt="A man that repairs a bicycle" />
+    </div>
+  </body>
+  <footer>
+    <div class="logo1">
+      <img src="images/logo.jpg" width="195" height="42" />
+    </div>
+    <div class="rightDiv">
+      <button class="button-Contact">Kontakt</button>
+      <button class="button-PriceList">Cijenik</button>
+      <button class="button-About">O nama</button>
+    </div>
+    <div class="line">
+      <img src="images/line.png" alt="linija" />
+    </div>
+    <div class="footer_container">
+      <div class="gallery3">
+        <img
+          class="image1"
+          src="images/Union.png"
+          alt="Instagram icon"
+          width="15.11"
+          height="14.97"
+        />
+        <img
+          class="image2"
+          src="images/twitter.png"
+          alt="Twitter icon"
+          width="27.¸18"
+          height="24.22"
+        />
+        <img
+          class="image3"
+          src="images/Group.png"
+          alt="Facebook icon"
+          width="29.9"
+          height="29.43"
+        />
+      </div>
+      <div class="row">
+        <div class="column1">Polica privatnosti</div>
+        <div class="column2">Uvjeti korištenja</div>
+        <div class="column3">© 2021 Čvarci.net</div>
+      </div>
+    </div>
+  </footer>
+</html>
